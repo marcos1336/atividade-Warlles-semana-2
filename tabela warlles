@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+printf("\ttotal = 100%\n \tIVA = 17%\n \tIRS = 15%\n \t------------\n \tLiquid = 68%");
+
+    return 0;
+}
