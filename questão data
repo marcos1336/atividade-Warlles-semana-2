@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int dia, mes, ano;
+
+    // Solicita a data ao usuário
+    printf("Digite o dia: ");
+    scanf("%d", &dia);
+
+    printf("Digite o mês: ");
+    scanf("%d", &mes);
+
+    printf("Digite o ano: ");
+    scanf("%d", &ano);
+
+    // Exibe a data no formato solicitado
+    printf("%01d/%02d/%04d\n",dia, mes, ano);
+
+    return 0;
+}
