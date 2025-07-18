@@ -1,1 +1,27 @@
-# warless 4 questões
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ int a, b;
+    int soma, sub, multi, divi;
+    int resto;
+
+    printf("Informe o a: ");
+    scanf("%d", &a);
+
+    printf("Informe o b: ");
+    scanf("%d", &b);
+
+    soma = a + b;
+    sub = a - b;
+    multi = a * b;
+    divi = a / b;
+    resto = a % b;
+
+    printf("Resultado da adicao: %d\n", som);
+    printf("Resultado da subtracao: %d\n", sub);
+    printf("Resultado da multiplicacao: %d\n", mul);
+    printf("Resultado da divisao: %d\n", divi);
+    printf("Resultado do resto: %d\n", res);
+}
