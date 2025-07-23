@@ -4,8 +4,7 @@
 int main()
 {
  int a, b;
-    int soma, sub, multi, divi;
-    int resto;
+    int soma, sub, multi, divi, resto;
 
     printf("Informe o a: ");
     scanf("%d", &a);
