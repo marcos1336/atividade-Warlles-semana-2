@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include<stdio.h>
 #include <stdlib.h>
-
 int main()
+
 {
  int a, b;
     int soma, sub, multi, divi, resto;
@@ -18,9 +18,10 @@ int main()
     divi = a / b;
     resto = a % b;
 
-    printf("Resultado da adicao: %d\n", som);
+    printf("Resultado da adicao: %d\n", soma);
     printf("Resultado da subtracao: %d\n", sub);
-    printf("Resultado da multiplicacao: %d\n", mul);
+    printf("Resultado da multiplicacao: %d\n", multi);
     printf("Resultado da divisao: %d\n", divi);
-    printf("Resultado do resto: %d\n", res);
+    printf("Resultado do resto: %d\n", resto);
 }
+    
