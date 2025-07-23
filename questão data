@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-int main()
-{
-   #include <stdio.h>
+int main(){
 
-int main() {
     int dia, mes, ano;
 
     printf("Digite o dia: ");
@@ -20,4 +17,4 @@ int main() {
 
     return 0;
 }
-}
+
